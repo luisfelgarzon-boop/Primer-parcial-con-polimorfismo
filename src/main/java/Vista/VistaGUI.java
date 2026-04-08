@@ -283,6 +283,7 @@ public class VistaGUI {
                     "Buscar estudiante", JOptionPane.QUESTION_MESSAGE);
 
             if (s == null) {
+                
                 JOptionPane.showMessageDialog(null,
                         "Búsqueda cancelada. Se retornará código -1.",
                         "Cancelado", JOptionPane.WARNING_MESSAGE);
