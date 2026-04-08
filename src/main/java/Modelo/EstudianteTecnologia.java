@@ -10,6 +10,7 @@ package Modelo;
  */
 // HERENCIA: extiende Estudiante, que a su vez extiende Persona
 public class EstudianteTecnologia extends Estudiante {
+   
 
     private int semestre;      // atributo propio de esta subclase
     private String programa;   // ej: "Ingeniería de Sistemas"
