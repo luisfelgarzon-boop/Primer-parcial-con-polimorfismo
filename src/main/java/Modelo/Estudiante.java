@@ -42,6 +42,7 @@ public class Estudiante extends Persona {
         }
     }
 
+    
     // ─── SOBRECARGA: modificarNota ───────────────────────────────────────
 
     /** SOBRECARGA 1: modifica solo la nota de Desarrollo */
