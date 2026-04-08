@@ -54,6 +54,7 @@ public class ControladorCursoGUI {
         // Búsqueda y modificación con SOBRECARGA visible al usuario
         int codigo = vista.pedirCodigo();
         Estudiante encontrado = curso.buscarPorCodigo(codigo);
+        
 
         if (encontrado != null) {
             String[] opts = {"Solo Desarrollo (1 parámetro)", "Ambas notas (2 parámetros)"};
