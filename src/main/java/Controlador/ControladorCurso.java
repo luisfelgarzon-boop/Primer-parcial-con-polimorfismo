@@ -65,5 +65,6 @@ public class ControladorCurso {
         } else {
             vista.mostrarMensaje("No existe un estudiante con ese código.");
         }
+        
     }
 }
